@@ -17,6 +17,8 @@ The SinDES algorithm is a block algorithm, and can't be used to process a stream
 - Simple substitution operation.
 - Unique iteration of the substitution, transposition and OR-EXCLUSIVE operations.
 
+If an algorithm robust against brute force attacks is needed, I suggest work on these 2 factors.
+
 ### Key exchange strategy
 
 The usual strategy to exchange a symmetric key consists in the following steps:
