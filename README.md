@@ -1,16 +1,15 @@
-# SinDES
-**SinDES** - Sindélio Data Encryption Standard. A simple simmetric cryptography algorithm for general purpose. 
+# SinDES - Sindélio's Data Encryption Standard. A simple simmetric cryptography algorithm for general purposes. 
 
-## Algorithm explanation
-
+### Algorithm explanation
 
 
-## Cryptographic key function
 
-## Algorithm restrictions
+### Cryptographic key function
 
-## Key exchange strategy
+### Algorithm restrictions
 
-## Compiling instructions
+### Key exchange strategy
+
+### Compiling instructions
 
 
