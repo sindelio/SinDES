@@ -23,7 +23,7 @@ If an algorithm robust against brute force attacks is needed, I suggest work on 
 
 The usual strategy to exchange a symmetric key consists in the following steps:
 
-1. Choosing and asymmetric algorithm.
+1. Choosing an asymmetric cryptography algorithm.
 2. Encrypting the symmetric key with the public asymmetric key of the addressee.
 3. Sending the encrypted symmetric key to the addressee.
 4. The addressee decrypts the symmetric key with his private asymmetric key.
@@ -55,16 +55,16 @@ $ ./algorithm argument1 argument 2 argument3
 ```
 Whereas:
 argument1 - Name of the file to be encrypted.
-argument2 - Action required of the program. can be "enc" for encryption or "dec" for decryption.
+argument2 - Action required of the program. Can be "enc" for encryption or "dec" for decryption.
 argument3 - Name of the file containing the symmetric key.
 
-The project already has a sample file (sample_file.txt) and a sample symmetric key (sample_key) that you can use straight away to test the program. 
+The project already has a sample file (sample_file.txt) and a sample symmetric key (sample_key.txt) that you can use straight away to test the program. 
 
 Encryption command example:
 ```
 $ ./algorithm sample_file.txt enc sample_key.txt
 ```
-Note: The encryption process always creates a  encrypted file (encrypted_file.txt) as a result. 
+Note: The encryption process always creates an encrypted file (encrypted_file.txt) as a result. 
 Decryption command example:
 ```
 $ ./algorithm encrypted_file.txt dec sample_key.txt
