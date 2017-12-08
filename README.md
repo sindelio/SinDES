@@ -30,4 +30,43 @@ Then messages can be sent or received with the SinDES algorithm, without third p
 
 ### Compiling instructions
 
+The SinDES algorithm is written in C and was compiled on a Ubuntu operating system, which is a Debian based Linux distribution. The compiler used was:
 
+- GCC version 5.4.0
+
+The C libraries used in the project were:
+
+- stdlib.h
+- stdio.h
+- string.h
+- stdbool.h
+
+Which are all standard C libraries. 
+To compile the code, run:
+
+$ gcc algorithm.c -o algorithm -Wall
+
+The -Wall flag doesn't allow complation if there is any warning in the code.
+To run the compiled program:
+
+$ ./algorithm argument1 argument 2 argument3
+
+Whereas:
+argument1 - Name of the file to be encrypted.
+argument2 - Action required of the program. can be "enc" for encryption or "dec" for decryption.
+argument3 - Name of the file containing the symmetric key.
+
+The project already has a sample file (sample_file.txt) and a sample symmetric key (sample_key) that you can use straight away to test the program. 
+
+Encryption command example:
+
+$ ./algorithm sample_file.txt enc sample_key.txt
+
+Note: The encryption process always creates a  encrypted file (encrypted_file.txt) as a result. 
+Decryption command example:
+
+$ ./algorithm encrypted_file.txt dec sample_key.txt
+
+### Licensing
+This code is distributed freely for any use and manipulation as long as you give credit for it!
+That's all folks _o/
