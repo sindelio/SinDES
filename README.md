@@ -4,7 +4,7 @@ A simple simmetric cryptography algorithm for general purposes.
 
 ### Algorithm explanation
 
-The SinDES is a symmetric algorithm, which means that it uses the same key for encryption and decryption. It is also a block algorithm, meaning that processes data in blocks and not in a stream. The SinDES uses substitution, transposition and OR-EXCLUSIVE operations to encrypt the data present in a file. These operations are common in standard algorithms such as DES, 3DES and AES.
+The SinDES is a symmetric algorithm, which means that it uses the same key for encryption and decryption. It is also a block algorithm, meaning that it processes data in blocks and not in a stream. The SinDES uses substitution, transposition and OR-EXCLUSIVE operations to encrypt the data present in a file. These operations are common in standard algorithms such as DES, 3DES and AES.
 
 ### Cryptographic key function
 
@@ -67,7 +67,7 @@ Decryption command example:
 ```
 $ ./algorithm encrypted_file.txt dec sample_key.txt
 ```
-### Contribution
+### Contributions
 
 ANY CONTRIBUTIONS AND COMMENTS ARE MUCH WELCOME!
 
