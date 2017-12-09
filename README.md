@@ -48,7 +48,7 @@ To compile the code, run:
 ```
 $ gcc algorithm.c -o algorithm -Wall
 ```
-The -Wall flag doesn't allow complation if there is any warning in the code.
+The -Wall flag doesn't allow compilation if there is any warning in the code.
 
 ### Running instructions
 
