@@ -57,7 +57,6 @@ To run the compiled program:
 $ ./algorithm argument1 argument2 argument3
 ```
 Whereas:
-
 argument1 - Name of the file to be encrypted.
 
 argument2 - Action required of the program. Can be "enc" for encryption or "dec" for decryption.
