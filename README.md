@@ -76,7 +76,7 @@ $ ./algorithm encrypted_file.txt dec sample_key.txt
 
 ANY CONTRIBUTIONS AND COMMENTS ARE MUCH WELCOME!
 
-### Licensing
-This code is distributed freely for any use and manipulation as long as you give credit for it!
+### Copyright and license
+This code is distributed under [the MIT license](https://github.com/sindelio/SinDES/blob/master/LICENSE).
 
 ### That's all folks _o/
