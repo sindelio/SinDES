@@ -54,11 +54,14 @@ The -Wall flag doesn't allow compilation if there is any warning in the code.
 
 To run the compiled program:
 ```
-$ ./algorithm argument1 argument 2 argument3
+$ ./algorithm argument1 argument2 argument3
 ```
 Whereas:
+
 argument1 - Name of the file to be encrypted.
+
 argument2 - Action required of the program. Can be "enc" for encryption or "dec" for decryption.
+
 argument3 - Name of the file containing the symmetric key.
 
 The project already has a sample file (sample_file.txt) and a sample symmetric key (sample_key.txt) that you can use straight away to test the program. 
