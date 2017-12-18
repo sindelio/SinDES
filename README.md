@@ -71,6 +71,7 @@ Encryption command example:
 $ ./algorithm sample_file.txt enc sample_key.txt
 ```
 The encryption process always creates an encrypted file (encrypted_file.txt) as a result. 
+
 Decryption command example:
 ```
 $ ./algorithm encrypted_file.txt dec sample_key.txt
