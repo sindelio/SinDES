@@ -70,11 +70,12 @@ Encryption command example:
 ```
 $ ./algorithm sample_file.txt enc sample_key.txt
 ```
-Note: The encryption process always creates an encrypted file (encrypted_file.txt) as a result. 
+The encryption process always creates an encrypted file (encrypted_file.txt) as a result. 
 Decryption command example:
 ```
 $ ./algorithm encrypted_file.txt dec sample_key.txt
 ```
+The decryption process also always creates a decrypted file (decrypted_file.txt) as a result.
 ### Contributions
 
 ANY CONTRIBUTIONS AND COMMENTS ARE MUCH WELCOME!
