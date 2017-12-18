@@ -79,7 +79,7 @@ $ ./algorithm encrypted_file.txt dec sample_key.txt
 The decryption process also always creates a decrypted file (decrypted_file.txt) as a result.
 ### Contributions
 
-ANY CONTRIBUTIONS AND COMMENTS ARE MUCH WELCOME!
+ANY CONTRIBUTIONS AND COMMENTS ARE MUCH WELCOME! 
 
 ### Copyright and license
 This code is distributed under [the MIT license](https://github.com/sindelio/SinDES/blob/master/LICENSE).
